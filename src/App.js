@@ -27,7 +27,7 @@ class App extends Component {
 </div>
 
 
-<a href="principal.html">Ir a principal</a>
+<a href="principall.html">Ir a principal nuevo link</a>
 
 
       </div>
