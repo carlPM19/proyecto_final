@@ -26,25 +26,11 @@ class App extends Component {
   <p>Centro Universitario San Juan Sacatepéquez, Guatemala Oficinas Administrativas 9a. calle 4-26 zona 4</p>
 </div>
 
-        
+
+
       </div>
       
-      <script>
-var acc = document.getElementsByClassName("accordion");
-var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
-</script>
       
       
     );
