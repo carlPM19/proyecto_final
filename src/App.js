@@ -15,7 +15,38 @@ class App extends Component {
 
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        
+        <button className="accordion">Acerca del curso</button>
+<div className="panel">
+  <p>La finalidad de este curso es aprender a diseñar e implementar aplicaciones que hagan uso de los servicios proporcionados por el sistema operativo, así adquirir los conocimientos necesarios para utilizar el sistema operativo a nivel de usuario avanzado </p>
+</div>
+
+<button className="accordion">Centro Universitario</button>
+<div className="panel">
+  <p>Centro Universitario San Juan Sacatepéquez, Guatemala Oficinas Administrativas 9a. calle 4-26 zona 4</p>
+</div>
+
+        
       </div>
+      
+      <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+      
+      
     );
   }
 }
