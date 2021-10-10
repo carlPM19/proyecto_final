@@ -8,10 +8,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to Docker-Meetup</h1>
+          <h1 className="App-title">UMG</h1>
         </header>
         <p className="App-intro">
-          Welcome to this Docker Meetup with Jenkins
+          Universidad Mariano Galvez de Guatemala
 
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
